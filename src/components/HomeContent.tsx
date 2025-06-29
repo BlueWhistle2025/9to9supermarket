@@ -69,11 +69,8 @@ const HomeContent = () => {
           <h3 className="text-2xl font-bold text-red-900 mb-4">
             Visit your nearest 9to9 store today and experience the joy of smart shopping!
           </h3>
-          <Link href="/storeLocator">
-            <a className="inline-block mt-4 px-6 py-3 bg-red-700 text-white font-medium rounded-lg hover:bg-red-800 transition">
-              Find a Store
-            </a>
-          </Link>
+     
+          <Link href="/storeLocator" className="text-yellow-500 hover:text-white transition"><b>Find a Store</b></Link>
         </div>
       </section>
       

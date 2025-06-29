@@ -77,12 +77,16 @@ const Contact = () => {
               <input type="text" className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" required />
             </div>
             <div>
+              <label className="block mb-2 font-medium">Phone</label>
+              <input type="text" className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" required />
+            </div>
+            <div>
               <label className="block mb-2 font-medium">Email</label>
-              <input type="email" className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" required />
+              <input type="email" className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"/>
             </div>
             <div>
               <label className="block mb-2 font-medium">Message</label>
-              <textarea rows={5} className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" required></textarea>
+              <textarea rows={5} className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"></textarea>
             </div>
             <button type="submit" className="px-6 py-3 bg-red-700 text-white rounded-lg hover:bg-red-800 transition">
               Send Message

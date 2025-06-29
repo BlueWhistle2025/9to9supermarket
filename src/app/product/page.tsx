@@ -19,19 +19,9 @@ const categories = [
       image: "/beverages.png",
     },
     {
-      title: "Personal Care",
-      description: "Soaps, shampoos, skincare, hygiene products",
-      image: "/personalCare.png",
-    },
-    {
-      title: "Home Essentials",
-      description: "Cleaning supplies, detergents, kitchenware",
-      image: "/homeEssential.png",
-    },
-    {
       title: "Packaged Foods",
-      description: "Biscuits, snacks, ready meals, cereals",
-      image: "/packagedFoods.png",
+      description: "Biscuits, snacks, ready meals, cereals ",
+      image: "/packagedFoods-1.png",
     },
     {
       title: "Baby Care",
@@ -43,6 +33,17 @@ const categories = [
       description: "Office supplies, batteries, utility items",
       image: "/stationary.png",
     },
+    {
+      title: "Personal Care",
+      description: "Soaps, shampoos, skincare, hygiene products",
+      image: "/personalCare.png",
+    },
+    {
+      title: "Home Essentials",
+      description: "Cleaning supplies, detergents, kitchenware",
+      image: "/homeEssential.png",
+    },
+
   ];
 
 const Products = () => {

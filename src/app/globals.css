@@ -26,4 +26,15 @@
   .navbar__link:hover::after {
     scale: 1;
   }
+
+  /* hide scrollbar for product row */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
 }

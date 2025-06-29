@@ -36,7 +36,8 @@ export default function RootLayout({
         {/* <HeaderTop /> */}
         <HeaderMain />
         <Navbar/>
-        {children}
+        <main className="pt-32">{children}</main>
+        {/* {children} */}
         <Footer />
       </body>
     </html>

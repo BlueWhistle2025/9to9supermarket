@@ -63,6 +63,8 @@ const About = () => {
           <Image
             src="/banner-7.jpg"
             alt="Vision and Mission"
+            width={600}
+          height={400}
             className="rounded-2xl shadow-lg w-full object-cover"
           />
         </div>
