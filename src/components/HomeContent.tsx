@@ -17,7 +17,7 @@ const HomeContent = () => {
         />
         <div className="relative z-10 max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-red-900 mb-4">
-            Welcome to 9to9 Supseermarket
+            Welcome to 9to9 Supermarket
           </h1>
           <p className="text-xl text-red-800">
             Your One-Stop Family Store
@@ -25,10 +25,10 @@ const HomeContent = () => {
         </div>
       </section>
 
-      <section className="bg-gray-100 py-12 px-4 md:px-12">
+      {/* <section className="bg-gray-100 py-12 px-4 md:px-12">
       <div className="max-w-5xl mx-auto text-center">
         {/* Video Section */}
-        <div className="relative w-full overflow-hidden rounded-xl shadow-lg">
+        {/* <div className="relative w-full overflow-hidden rounded-xl shadow-lg">
           <video
             className="w-full h-auto rounded-xl"
             src="/video/9to9video.mp4" // place video in public/video.mp4
@@ -36,6 +36,22 @@ const HomeContent = () => {
             loop
             muted
             playsInline
+          />
+        </div>
+      </div>
+    // </section> */} */
+     <section className="bg-gray-100 py-12 px-4 md:px-12">
+      <div className="max-w-5xl mx-auto text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-red-800 mb-6">
+          Watch Our Video
+        </h2>
+
+        {/* Google Drive Video Embed */}
+        <div className="relative w-full pb-[56.25%] h-0 overflow-hidden rounded-xl shadow-lg">
+          <iframe
+            src="https://drive.google.com/file/d/18OAQA1R7nyfMsXZma9R12yG_UCGQqOjV/preview"
+            allow="autoplay"
+            className="absolute top-0 left-0 w-full h-full border-0 rounded-xl"
           />
         </div>
       </div>
