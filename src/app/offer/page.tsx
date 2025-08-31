@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 const page = () => {
-  const images = ["/offer.jpg", "/offer-2.jpg"]
+  const images = ["/offers/offer-1.jpeg", "/offer-2.jpg"]
   return (
     <div>
               <section className="relative bg-yellow-100 py-20 px-6 md:px-20 text-center">

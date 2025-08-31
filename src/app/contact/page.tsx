@@ -49,12 +49,12 @@ const Contact = () => {
           <div className="space-y-6 text-lg">
             <div>
               <h2 className="text-xl font-semibold text-red-700">Customer Support:</h2>
-              <p>Phone: +91 9204052546/35</p>
+              <p>Whatsapp: +91 9264427431/9204052535</p>
               <p>Email: info@9to9patna.com</p>
             </div>
             <div>
               <h2 className="text-xl font-semibold text-red-700">Corporate Office:</h2>
-              <p>Aditya House, East Boring Canal Road,<br />Patna, Bihar – 800001</p>
+              <p><strong>Aditya Consumer Marketing Limited</strong> <br/> Ground Floor,M-19, <br/>Road No. -2, Sri Krishna Nagar<br />Patna, Bihar – 800001</p>
             </div>
             <div>
               <h2 className="text-xl font-semibold text-red-700">Follow Us:</h2>

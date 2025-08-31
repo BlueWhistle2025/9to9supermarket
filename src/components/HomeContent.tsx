@@ -17,7 +17,7 @@ const HomeContent = () => {
         />
         <div className="relative z-10 max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-red-900 mb-4">
-            Welcome to 9to9 Supermarket
+            Welcome to 9to9 Supseermarket
           </h1>
           <p className="text-xl text-red-800">
             Your One-Stop Family Store
@@ -25,15 +25,31 @@ const HomeContent = () => {
         </div>
       </section>
 
+      <section className="bg-gray-100 py-12 px-4 md:px-12">
+      <div className="max-w-5xl mx-auto text-center">
+        {/* Video Section */}
+        <div className="relative w-full overflow-hidden rounded-xl shadow-lg">
+          <video
+            className="w-full h-auto rounded-xl"
+            src="/video/9to9video.mp4" // place video in public/video.mp4
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        </div>
+      </div>
+    </section>
+
       {/* Introduction */}
       <section className="py-16 px-6 md:px-20 bg-white">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div className="space-y-6 text-lg leading-relaxed">
             <p>
-              Discover a world of convenience, quality, and savings at <strong>9to9 Supermarket</strong> – Bihar’s favorite destination for daily essentials. From fresh fruits and vegetables to household goods, groceries, personal care products, and much more, we offer everything under one roof to make your shopping experience easy and enjoyable.
+              Discover a world of convenience, quality, and savings at <strong>9to9 Supermarket</strong> – Bihar’s favorite destination for daily essentials. From household goods, groceries, personal care products, and much more, we offer everything under one roof to make your shopping experience comfortable and enjoyable.
             </p>
             <p>
-              Located across prime neighborhoods in Patna and Bihar, 9to9 Supermarket brings modern retail close to home. With a commitment to affordability and customer satisfaction, we make sure you find exactly what you need, when you need it.
+              Located across prime neighborhoods in Patna, Gaya and Muzaffarpur, 9to9 Supermarket brings modern retail closer to home. With a commitment to affordability and customer satisfaction, we make sure you find exactly what you need, when you need it.
             </p>
           </div>
           <div>
@@ -54,11 +70,11 @@ const HomeContent = () => {
           <h2 className="text-3xl font-bold text-red-800 mb-6">Why Shop With Us?</h2>
           <ul className="text-lg grid gap-4 md:grid-cols-2 list-disc list-inside text-left max-w-3xl mx-auto">
             <li>Wide range of quality products</li>
-            <li>Everyday low prices</li>
-            <li>Clean, spacious, and family-friendly stores</li>
+            <li>Free Carry Bag</li>
+            <li>Imported Products</li>
             <li>Regular offers and exciting discounts</li>
-            <li>Hygienic fresh produce section</li>
-            <li>Customer-first approach</li>
+            <li>Hassle Free Return Policy</li>
+            <li>Minimum Purchase of ₹1000 and above</li>
           </ul>
         </div>
       </section>

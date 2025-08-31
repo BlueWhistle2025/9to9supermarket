@@ -6,42 +6,42 @@ const categories = [
     {
       title: "Groceries",
       description: "Rice, pulses, spices, flours, cooking oils, and more",
-      image: "/groceries.png",
+      image: "/products/groceries.jpeg",
     },
     {
       title: "Dairy & Bakery",
       description: "Milk, curd, butter, cheese, breads, and ready-to-eat items",
-      image: "/dairy.png",
+      image: "/products/dairy.jpeg",
     },
     {
       title: "Beverages",
       description: "Juices, soft drinks, tea, coffee, and health drinks",
-      image: "/beverages.png",
+      image: "/products/beverages.jpeg",
     },
     {
       title: "Packaged Foods",
       description: "Biscuits, snacks, ready meals, cereals ",
-      image: "/packagedFoods-1.png",
+      image: "/products/packedFoods.jpeg",
     },
     {
       title: "Baby Care",
       description: "Diapers, baby food, lotions, wipes",
-      image: "/babyCare.png",
+      image: "/products/babyCare.jpeg",
     },
     {
       title: "Stationery & Miscellaneous",
       description: "Office supplies, batteries, utility items",
-      image: "/stationary.png",
+      image: "/products/stationary.jpeg",
     },
     {
       title: "Personal Care",
       description: "Soaps, shampoos, skincare, hygiene products",
-      image: "/personalCare.png",
+      image: "/products/personalCare.jpeg",
     },
     {
       title: "Home Essentials",
       description: "Cleaning supplies, detergents, kitchenware",
-      image: "/homeEssential.png",
+      image: "/products/homeEssential.jpeg",
     },
 
   ];
