@@ -53,6 +53,7 @@ const HeaderMain = () => {
                   className="h-auto w-auto"
                 />
               </Link>
+              <p>A unit of Aditya Vision</p>
             </div>
   
             {/* Desktop Menu */}

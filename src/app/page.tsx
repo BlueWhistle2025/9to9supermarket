@@ -1,6 +1,7 @@
 import Carousel from "@/components/Carousel";
 import ExperienceSection from "@/components/ExperienceSection";
 import HomeContent from "@/components/HomeContent";
+import ProcessSection from "@/components/Process";
 import StoreLocator from "@/components/StoreLocator";
 
 export default function Home() {
@@ -8,8 +9,9 @@ export default function Home() {
     <main>
       <Carousel />
       <HomeContent />
+      <ProcessSection />
       <ExperienceSection />
-      <StoreLocator />
+      {/* <StoreLocator /> */}
     </main>
   )
 }

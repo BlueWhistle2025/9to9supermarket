@@ -85,12 +85,15 @@ const HomeContent = () => {
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-red-800 mb-6">Why Shop With Us?</h2>
           <ul className="text-lg grid gap-4 md:grid-cols-2 list-disc list-inside text-left max-w-3xl mx-auto">
-            <li>Wide range of quality products</li>
+            <li>Everyday Low Prices</li>
             <li>Free Carry Bag</li>
             <li>Imported Products</li>
             <li>Regular offers and exciting discounts</li>
             <li>Hassle Free Return Policy</li>
-            <li>Minimum Purchase of ₹1000 and above</li>
+            <li>Customer First approach</li>
+            <li>Wide Range of Quality products</li>
+            {/* <li>Clean Spacious and family friendly stores</li> */}
+            <li>Assured Gift on Minimum Purchase of ₹1000 and above</li>
           </ul>
         </div>
       </section>
