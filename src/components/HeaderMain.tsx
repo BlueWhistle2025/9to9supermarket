@@ -46,14 +46,14 @@ const HeaderMain = () => {
             <div className="flex-shrink-0">
               <Link href="/">
               <Image
-                  src="/super-logo.png"  // Place your logo in the public/ folder
+                  src="/Logo.png"  // Place your logo in the public/ folder
                   alt="Logo"
                   width={120}
                   height={60}
                   className="h-auto w-auto"
                 />
               </Link>
-              <p>A unit of Aditya Vision</p>
+              {/* <p>A unit of Aditya Vision</p> */}
             </div>
   
             {/* Desktop Menu */}
