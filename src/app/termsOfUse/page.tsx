@@ -24,7 +24,7 @@ const TermsOfUse =() =>{
 
         <p className="text-lg leading-relaxed mb-6">
           Your use of the Website, services, and tools are governed by the following terms and
-          conditions ("Terms of Use") as applicable to the Website including applicable policies which
+          conditions (Terms of Use) as applicable to the Website including applicable policies which
           are incorporated herein by reference. By mere use of the Website, You shall be contracting
           with Aditya Vision Private Limited and these terms and conditions constitute Your binding
           obligations with Aditya Vision.
@@ -32,10 +32,10 @@ const TermsOfUse =() =>{
 
         <h2 className="text-2xl font-semibold mt-10 mb-4">User Agreement</h2>
         <p className="text-lg leading-relaxed mb-6">
-          For the purpose of these Terms of Use, wherever the context so requires, "You" or "User"
+          For the purpose of these Terms of Use, wherever the context so requires, You or User
           shall mean any natural or legal person who has agreed to become a buyer on the Website by
-          providing Registration Data while registering as a Registered User. The terms "We",
-          "Us", "Our" shall mean Aditya Vision Private Limited.
+          providing Registration Data while registering as a Registered User. The terms We,
+          Us, Our shall mean Aditya Vision Private Limited.
         </p>
         <p className="text-lg leading-relaxed mb-6">
           When You use any of the services provided by Us through the Website, including but not
@@ -63,8 +63,8 @@ const TermsOfUse =() =>{
           electronic means periodically.
         </p>
         <p className="text-lg leading-relaxed mb-6 italic border-l-4 pl-4 border-gray-400">
-          "By submitting information with us, you agree to receive communication about products and
-          services over SMS/RCS/WhatsApp/etc."
+          By submitting information with us, you agree to receive communication about products and
+          services over SMS/RCS/WhatsApp/etc.
         </p>
       </div>
     </section>

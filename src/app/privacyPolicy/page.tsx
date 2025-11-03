@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-bold mb-6 text-gray-900">Privacy Policy</h1>
         <p className="text-lg leading-relaxed mb-6">
-          We value the trust you place in us. That's why we insist upon the highest standards for
+          We value the trust you place in us. Thats why we insist upon the highest standards for
           secure transactions and customer information privacy. Please read the following statement
           to learn about our information gathering and dissemination practices.
         </p>
@@ -44,7 +44,7 @@ const PrivacyPolicy = () => {
         </p>
         <p className="text-lg leading-relaxed mb-6">
           We may automatically track certain information about you based upon your behaviour on our
-          Website. We use this information to do internal research on our users' demographics,
+          Website. We use this information to do internal research on our users demographics,
           interests, and behaviour to better understand, protect and serve our users. This information
           is compiled and analysed on an aggregated basis.
         </p>
