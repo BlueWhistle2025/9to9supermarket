@@ -93,7 +93,7 @@ const HomeContent = () => {
             <li>Customer First approach</li>
             <li>Wide Range of Quality products</li>
             {/* <li>Clean Spacious and family friendly stores</li> */}
-            <li>Assured Gift on Minimum Purchase of ₹1000 and above</li>
+            <li>Assured Gift on Min. Purchase of ₹1000 + </li>
           </ul>
         </div>
       </section>

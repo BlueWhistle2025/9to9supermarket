@@ -1,66 +1,29 @@
 'use client'
 
 import { useState } from 'react';
-import Link from 'next/link';
 import React from 'react';
-import { Menu, X } from 'lucide-react'
-
-
-const productLinks = [
-    'Groceries',
-    'Dairy & Bakery',
-    'Beverages',
-    'Personal Care',
-    'Home Essentials',
-    'Packaged Foods',
-    'Baby Care',
-    'Stationery & Miscellaneous',
-  ]
-  
 
 const Navbar = () => {
-
-const [isOpen, setIsOpen] = useState(false)
+  const [] = useState(false)
 
   return (
     <div className="bg-red-800 text-white fixed top-16 w-full z-40">
       <div className="container mx-auto">
-        {/* Desktop Menu */}
-        <div className="hidden lg:flex w-fit gap-10 mx-auto font-medium py-4">
-          {productLinks.map((label) => (
-            <Link key={label} href="/product" className="navbar__link relative">
-              {label}
-            </Link>
-          ))}
-        </div>
+        <div className="hidden lg:flex w-full justify-center font-bold py-4">
+        <span className="navbar__text text-center">
+          A unit of Aditya Marketing Consumer Limited
+        </span>
+      </div>
+
 
         {/* Mobile Toggle Button */}
         <div className="flex lg:hidden justify-between items-center px-4 py-3">
-          <span className="font-semibold">Categories</span>
-          <button onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          <span className="font-semibold">A unit of Aditya Marketing Consumer Limited</span>
         </div>
 
-        {/* Mobile Dropdown Menu */}
-        {isOpen && (
-          <div className="lg:hidden px-4 pb-4 space-y-2">
-            {productLinks.map((label) => (
-              <Link
-                key={label}
-                href="/product"
-                className="block py-2 text-sm border-b border-white/30"
-                onClick={() => setIsOpen(false)}
-              >
-                {label}
-              </Link>
-            ))}
-          </div>
-        )}
       </div>
     </div>
   )
-
-
 }
+
 export default Navbar;

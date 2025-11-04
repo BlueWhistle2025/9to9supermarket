@@ -9,12 +9,12 @@ import 'swiper/css/navigation';
 
 const carouselData = [
   {
-    src: '/banners/1.png',
+    src: '/banners/banner1.png',
     alt: 'Team at 9 to 9 Supermarket',
     caption: 'Our Dedicated Team Serving You Daily',
   },
   {
-    src: '/banners/2.png',
+    src: '/banners/banner2.png',
     alt: 'Supermarket Entrance',
     caption: 'Your Trusted Neighborhood Store',
   },
