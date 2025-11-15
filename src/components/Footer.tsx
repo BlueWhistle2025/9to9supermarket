@@ -120,7 +120,7 @@ const Footer = () => {
       </div>
     </footer>
         <div className="bg-blackish text-gray-500 text-center py-4 pb-16 md:pb-4">
-        © 9 to 9 Supermart. All rights reserved.
+        © 9 to 9 Super Market. All rights reserved.
         </div>
     </div>
   )
