@@ -22,7 +22,7 @@ const page = () => {
 
 
               <div className="px-6 py-10 max-w-7xl mx-auto text-red-900">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
         {images.map((imgSrc, index) => (
           <div
             key={index}

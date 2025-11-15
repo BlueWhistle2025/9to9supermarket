@@ -4,14 +4,14 @@ import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs';
 import Link from 'next/link';
 
 const features = [
-    {
-      title: 'Free delivery',
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M21.5 15a3 3 0 0 0-1.9-2.78l1.87-7a1 1 0 0 0-.18-.87A1 1 0 0 0 20.5 4H6.8l-.33-1.26A1 1 0 0 0 5.5 2h-2v2h1.23l2.48 9.26a1 1 0 0 0 1 .74H18.5a1 1 0 0 1 0 2h-13a1 1 0 0 0 0 2h1.18a3 3 0 1 0 5.64 0h2.36a3 3 0 1 0 5.82 1a2.94 2.94 0 0 0-.4-1.47A3 3 0 0 0 21.5 15Zm-3.91-3H9L7.34 6H19.2ZM9.5 20a1 1 0 1 1 1-1a1 1 0 0 1-1 1Zm8 0a1 1 0 1 1 1-1a1 1 0 0 1-1 1Z" />
-        </svg>
-      ),
-    },
+    // {
+    //   title: 'Free delivery',
+    //   icon: (
+    //     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+    //       <path d="M21.5 15a3 3 0 0 0-1.9-2.78l1.87-7a1 1 0 0 0-.18-.87A1 1 0 0 0 20.5 4H6.8l-.33-1.26A1 1 0 0 0 5.5 2h-2v2h1.23l2.48 9.26a1 1 0 0 0 1 .74H18.5a1 1 0 0 1 0 2h-13a1 1 0 0 0 0 2h1.18a3 3 0 1 0 5.64 0h2.36a3 3 0 1 0 5.82 1a2.94 2.94 0 0 0-.4-1.47A3 3 0 0 0 21.5 15Zm-3.91-3H9L7.34 6H19.2ZM9.5 20a1 1 0 1 1 1-1a1 1 0 0 1-1 1Zm8 0a1 1 0 1 1 1-1a1 1 0 0 1-1 1Z" />
+    //     </svg>
+    //   ),
+    // },
     // {
     //   title: '100% secure payment',
     //   icon: (
@@ -51,7 +51,7 @@ const Footer = () => {
     <div>
          <section className="py-10 bg-red-800">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6 text-white">
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6 text-white">
           {features.map((item, idx) => (
             <div key={idx} className="flex items-start gap-4">
               <div className="text-white">{item.icon}</div>
@@ -114,7 +114,7 @@ const Footer = () => {
           {/* Store Timings */}
           <div className="w-full sm:w-1/2 md:w-1/4">
             <h5 className="text-lg font-semibold mb-4">Store Timings</h5>
-            <p className="text-red-800">Open Daily from 9:00 AM to 10:00 PM</p>
+            <p className="text-red-800">Open Daily from 9:00 AM to 9:00 PM</p>
           </div>
         </div>
       </div>

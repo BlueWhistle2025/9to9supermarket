@@ -92,25 +92,36 @@ const About = () => {
 
     {/* Message */}
     <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
-      <p>
-        It gives me great pride and satisfaction to lead a brand that has become
-        a trusted part of everyday life for so many families. Since our
-        inception, 9to9 supermarket has been committed to delivering quality and
-        convenience to our customers across every store we open.
+    <p>
+        <em>
+          <strong>&quot;</strong> It gives me great pride and satisfaction to lead a brand that has become
+          a trusted part of everyday life for so many families. Since our
+          inception, 9to9 supermarket has been committed to delivering quality and
+          convenience to our customers across every store we open.
+        </em>
       </p>
+
       <p>
-        Thanks to your unwavering support and trust, 9to9 has grown into more
-        than just a supermarket—we are a community. Every step of our journey
-        has been shaped by your feedback, trust, and belief in what we stand
-        for. We are constantly striving to improve our services, expanding our
-        product range, and staying ahead of the evolving needs of the customers
-        we serve.
+        <em>
+          Thanks to your unwavering support and trust, 9to9 has grown into more
+          than just a supermarket—we are a community. Every step of our journey
+          has been shaped by your feedback, trust, and belief in what we stand
+          for. We are constantly striving to improve our services, expanding our
+          product range, and staying ahead of the evolving needs of the customers
+          we serve.
+        </em>
       </p>
+
       <p>
-        We aim to build on our legacy, embracing new challenges and upholding
-        the highest standards in everything we do. We are excited about the
-        future and the opportunities it brings to serve you better.
+        <em>
+          We aim to build on our legacy, embracing new challenges and upholding
+          the highest standards in everything we do. We are excited about the
+          future and the opportunities it brings to serve you better. 
+          <strong>&quot;</strong>
+        </em>
       </p>
+
+
       <p className="font-medium text-gray-900">Thank you for being a part of the 9to9 journey.</p>
     </div>
   </div>

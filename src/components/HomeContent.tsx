@@ -84,7 +84,7 @@ const HomeContent = () => {
       <section className="bg-gray-50 py-16 px-6 md:px-20">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-red-800 mb-6">Why Shop With Us?</h2>
-          <ul className="text-lg grid gap-4 md:grid-cols-2 list-disc list-inside text-left max-w-3xl mx-auto">
+          <ul className="text-lg grid gap-4 md:grid-cols-2 list-disc list-inside text-left max-w-5xl mx-auto">
             <li>Everyday Low Prices</li>
             <li>Free Carry Bag</li>
             <li>Imported Products</li>
@@ -92,9 +92,13 @@ const HomeContent = () => {
             <li>Hassle Free Return Policy</li>
             <li>Customer First approach</li>
             <li>Wide Range of Quality products</li>
-            {/* <li>Clean Spacious and family friendly stores</li> */}
+            <li>Clean Spacious and family friendly stores</li>
             <li>Assured Gift on Min. Purchase of ₹1000 + </li>
+            <li>Handpicked grocery sourced from the finest pan India</li>
           </ul>
+          {/* <ul className="text-lg grid gap-4 md:grid-cols-1 list-disc list-inside text-left max-w-4xl mx-auto">
+            <li>Handpicked grocery sourced from the finest pan India</li>
+          </ul> */}
         </div>
       </section>
 
